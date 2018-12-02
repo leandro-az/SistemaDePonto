@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/10/17 22:00:17.000.796,=C:\Users\Leandro\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/17 22:13:20.000.324,=C:\Users\Leandro\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/17 22:13:48.000.391,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaIni.pas=C:\Users\Leandro\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/10/17 22:13:48.000.391,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaIni.dfm=C:\Users\Leandro\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/10/17 22:14:08.000.223,C:\Users\Leandro\Desktop\ProjetoAlterData\ProjetoAlterData.dproj=C:\Users\Leandro\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/10/17 22:25:04.000.078,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit2.pas</Transaction>
+    <Transaction>2018/10/17 22:26:12.000.609,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConfig.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit2.pas</Transaction>
+    <Transaction>2018/10/17 22:26:12.000.609,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConfig.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit2.dfm</Transaction>
+    <Transaction>2018/10/17 22:50:43.000.079,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit3.pas</Transaction>
+    <Transaction>2018/10/17 22:51:11.000.754,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaRelatPont.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit3.pas</Transaction>
+    <Transaction>2018/10/17 22:51:11.000.754,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaRelatPont.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit3.dfm</Transaction>
+    <Transaction>2018/10/17 23:02:58.000.587,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit4.pas</Transaction>
+    <Transaction>2018/10/17 23:03:31.000.992,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaRegPont.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit4.dfm</Transaction>
+    <Transaction>2018/10/17 23:03:31.000.992,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaRegPont.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit4.pas</Transaction>
+    <Transaction>2018/10/17 23:59:32.000.229,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit5.pas</Transaction>
+    <Transaction>2018/10/18 00:04:48.000.578,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConcultHE.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit5.pas</Transaction>
+    <Transaction>2018/10/18 00:04:48.000.578,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConcultHE.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit5.dfm</Transaction>
+    <Transaction>2018/10/18 00:13:43.000.217,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConsultHE.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConcultHE.pas</Transaction>
+    <Transaction>2018/10/18 00:13:43.000.217,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConsultHE.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaConcultHE.dfm</Transaction>
+    <Transaction>2018/10/18 19:57:08.000.000,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 19:58:24.000.612,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaDemonsRelat.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 19:58:24.000.612,C:\Users\Leandro\Desktop\ProjetoAlterData\Visao\TelaDemonsRelat.dfm=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.dfm</Transaction>
+    <Transaction>2018/10/18 20:12:11.000.751,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 20:13:02.000.189,C:\Users\Leandro\Desktop\ProjetoAlterData\Modelo\Funcionario.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 21:26:35.000.901,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 21:27:46.000.602,C:\Users\Leandro\Desktop\ProjetoAlterData\Controle\ControleFuncionario.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 21:52:29.000.076,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/18 21:52:44.000.718,C:\Users\Leandro\Desktop\ProjetoAlterData\Modelo\Ponto.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/19 00:05:37.000.332,=C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas</Transaction>
+    <Transaction>2018/10/19 00:06:26.000.114,C:\Users\Leandro\Desktop\ProjetoAlterData\Unit1.pas=C:\Users\Leandro\Desktop\ProjetoAlterData\Controle\ControlePonto.pas</Transaction>
+  </Transactions>
+</BorlandProject>

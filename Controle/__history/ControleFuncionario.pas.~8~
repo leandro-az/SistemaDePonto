@@ -1,0 +1,33 @@
+unit ControleFuncionario;
+
+interface
+
+uses
+    SysUtils,Funcionario;
+
+function InicializaFuncionario():TFuncionario;
+
+implementation
+
+function InicializaFuncionario():TFuncionario;
+var
+   Arq : TextFile;
+   line: Ansistring;
+   FuncAux:TFuncionario;
+   NomeArq:Ansistring;
+begin
+  FuncAux:= TFuncionario.Create;
+  NomeArq:='';
+  line:='';
+  if fileexists() then
+  begin
+    Reset(Arq);
+    while not Eof(Arq) do
+    begin
+      ReadLn(Arq, line);
+    end;
+  end;
+  result:= FuncAux;
+end;
+
+end.

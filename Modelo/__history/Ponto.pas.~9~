@@ -1,0 +1,52 @@
+unit Ponto;
+
+interface
+
+
+uses
+  System.SysUtils;
+
+type
+ TPonto=class
+   public
+     FDataMarcacao: TDateTime;
+     FHoraEntrada: Integer;
+     FMinEntrada  : Integer;
+     FHoraSaidaAlmoco: Integer;
+     FMinSaidaAlmoco  : Integer;
+     FHoraRetornoAlmoco: Integer;
+     FMinRetornoAlmoco  : Integer;
+     FHoraSaida: Integer;
+     FMinSaida  : Integer;
+     FAlterado:Boolean;
+     Constructor Create;
+     Destructor  Destroy;
+ end;
+
+ TListaDePontos= Array of TPonto;
+
+implementation
+
+{ TPonto }
+
+constructor TPonto.Create;
+begin
+   inherited Create;
+   FDataMarcacao:=Date;
+   FMinutEntrada:=0;
+   FSegEntrada  :=0;
+   FMinutSaidaAlmoco:=0;
+   FSegSaidaAlmoco  :=0;
+   FMinutRetornoAlmoco:=0;
+   FSegRetornoAlmoco  :=0;
+   FMinutSaida:=0;
+   FSegSaida  :=0;
+   FAlterado:=False;
+end;
+
+destructor TPonto.Destroy;
+begin
+    inherited;
+end;
+
+end.

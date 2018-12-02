@@ -1,0 +1,22 @@
+unit Funcionario;
+
+interface
+
+type
+  TFuncionario=class
+    private
+      FNome: Ansistring;
+      FFuncao: Ansistring;
+    public
+      procedure SetNome;
+      function GetNome: Ansistring;
+      procedure SetFuncao;
+      function GetFuncao: Ansistring;
+  end;
+
+implementation
+
+{ TFuncionario }
+
+
+end.
