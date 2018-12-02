@@ -1,0 +1,206 @@
+object TelaDeRegistroDePonto: TTelaDeRegistroDePonto
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Registro de Ponto'
+  ClientHeight = 322
+  ClientWidth = 648
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object LabelDataDaMarc: TLabel
+    Left = 32
+    Top = 24
+    Width = 168
+    Height = 24
+    Caption = 'Data da Marca'#231#227'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelMarc: TLabel
+    Left = 32
+    Top = 88
+    Width = 100
+    Height = 24
+    Caption = 'Marca'#231#245'es:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelEntrada: TLabel
+    Left = 32
+    Top = 144
+    Width = 76
+    Height = 24
+    Caption = 'Entrada:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabeSaidaAlmo: TLabel
+    Left = 160
+    Top = 144
+    Width = 127
+    Height = 24
+    Caption = 'Sa'#237'da Almo'#231'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelRetornoAlmoco: TLabel
+    Left = 328
+    Top = 144
+    Width = 148
+    Height = 24
+    Caption = 'Retorno Almo'#231'o:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelSaida: TLabel
+    Left = 522
+    Top = 144
+    Width = 56
+    Height = 24
+    Caption = 'Sa'#237'da:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelLinha: TLabel
+    Left = 147
+    Top = 88
+    Width = 472
+    Height = 18
+    Caption = '___________________________________________________________'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DateTimePickerDtMarc: TDateTimePicker
+    Left = 304
+    Top = 24
+    Width = 186
+    Height = 32
+    Date = 43390.961963530090000000
+    Time = 43390.961963530090000000
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object BotaoGravar: TButton
+    Left = 368
+    Top = 257
+    Width = 108
+    Height = 41
+    Caption = 'Gravar'
+    TabOrder = 1
+    OnClick = BotaoGravarClick
+  end
+  object BotaoCancelar: TButton
+    Left = 497
+    Top = 257
+    Width = 113
+    Height = 41
+    Caption = 'Cancelar'
+    TabOrder = 2
+    OnClick = BotaoCancelarClick
+  end
+  object MaskEditHoraEntrada: TMaskEdit
+    Left = 32
+    Top = 174
+    Width = 97
+    Height = 41
+    EditMask = '99:99;1;_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    MaxLength = 5
+    ParentFont = False
+    TabOrder = 3
+    Text = '00:00'
+  end
+  object MaskEditHoraSaidaAlmo: TMaskEdit
+    Left = 160
+    Top = 174
+    Width = 91
+    Height = 41
+    EditMask = '99:99;1;_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    MaxLength = 5
+    ParentFont = False
+    TabOrder = 4
+    Text = '00:00'
+  end
+  object MaskEditHoraRetornoAlmo: TMaskEdit
+    Left = 328
+    Top = 174
+    Width = 97
+    Height = 41
+    EditMask = '99:99;1;_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    MaxLength = 5
+    ParentFont = False
+    TabOrder = 5
+    Text = '00:00'
+  end
+  object MaskEditHoraSaida: TMaskEdit
+    Left = 522
+    Top = 168
+    Width = 88
+    Height = 41
+    EditMask = '99:99;1;_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    MaxLength = 5
+    ParentFont = False
+    TabOrder = 6
+    Text = '00:00'
+  end
+end
